@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: local('Gunny Rewritten'), local('GunnyRewritten'), url('../fonts/gunnyrewritten.woff2') format('woff2'), url('../fonts/gunnyrewritten.woff') format('woff'), url('../fonts/gunnyrewritten.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: local('Lobster'), url('../fonts/lobster.woff2') format('woff2'), url('../fonts/lobster.woff') format('woff'), url('../fonts/lobster.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
