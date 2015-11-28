@@ -1,0 +1,10 @@
+.panorama{
+    clear: both;
+    overflow: hidden;
+}
+.panorama>div{
+    width: 9999999999999px;
+}
+.panorama img{
+    float: left;
+}

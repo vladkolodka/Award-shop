@@ -16,14 +16,16 @@
     <link rel="stylesheet" type="text/css" href="style/shop.css">
     <link rel="stylesheet" type="text/css" href="style/footer.css">
 
+    <!-- Styles for js libs -->
     <!--<link rel="stylesheet" type="text/css" href="style/libs/jquery-ui.css">-->
+    <link rel="stylesheet" type="text/css" href="style/libs/jquery-panorama.css">
 
     <!-- Libs-->
     <script src="script/libs/jquery.js"></script>
     <script src="script/libs/jquery-ui.js"></script>
 
     <!-- My libs-->
-    <script src="script/panoram.js"></script>
+    <script src="script/libs/jquery-panorama.js"></script>
 
     <!-- Scripts -->
     <script src="script/main.js"></script>
@@ -31,7 +33,9 @@
 </head>
 <body>
     <header>
-        <img src="img/header/panoram.jpg" class="panoram">
+        <div class="panorama">
+            <img src="img/header/panorama.jpg">
+        </div>
     </header>
 </body>
 </html>

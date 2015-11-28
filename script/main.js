@@ -1,3 +1,3 @@
 $(function () {
-    panoram.init();
+    $(".panorama>img").panorama(1000);
 });
