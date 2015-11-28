@@ -1,10 +1,6 @@
 $(function () {
-<<<<<<< HEAD
     $(".panorama").panorama(100000);
-=======
-    $(".panorama").panorama(70000);
->>>>>>> 3c9a3d791a6b7873df75c94ceb17126021028536
-
+    
     // анимация header>h1,h3
     var headers = $("header h1,h3");
     window.setTimeout(function () {
