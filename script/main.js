@@ -1,3 +1,3 @@
 $(function () {
-    $(".panorama>img").panorama(1000);
+    $(".panorama").panorama(1440, 50000);
 });

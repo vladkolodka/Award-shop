@@ -1,26 +1,24 @@
 (function($) {
-    $.fn.panorama = function(ImageWidth) {
+    $.fn.panorama = function(ImageWidth, ScrollSpeed) {
 
-        var panorama = this.first().parent();
-        var wrapper = $("<div></div>");
+        var panorama = this.first();
+        var wrapper = $("<div>");
+        var images = panorama.find("img");
 
-        panorama.append(wrapper);
         panorama.width(ImageWidth);
+        panorama.append(wrapper);
+        wrapper.append(images);
 
-        this.each(function (index, element) {
-            var jElement = $(element);
-
-            wrapper.append(jElement);
-        });
-        this.first().load(function () {
+        images.load(function () {
             var count = Math.ceil(ImageWidth / this.width);
             for(var i = 0; i < count; i++){
-                wrapper.append($(this).clone());
+                wrapper.append(images.clone());
             }
-            animate(this.width*-1);
+            animate(this.width *-1);
         });
+
         function animate(width){
-            wrapper.animate({marginLeft: width}, 32000, "linear", function () {
+            wrapper.animate({marginLeft: width}, ScrollSpeed, "linear", function () {
                 wrapper.css({marginLeft: 0});
                 animate(width);
             });
