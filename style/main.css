@@ -1,9 +1,17 @@
-body {
+body, html {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
+
+/* Frame */
+.frame {
+    margin: 0;
+    height: 100%;
+}
+
 .scale1{
-    -ms-transform: scale(1.2,1.2); /* IE 9 */
-    -webkit-transform: scale(1.2,1.2); /* Safari */
+    -ms-transform: scale(3,3); /* IE 9 */
+    -webkit-transform: scale(3,3); /* Safari */
     transform: scale(3,3);
 }
