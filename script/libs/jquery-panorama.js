@@ -5,12 +5,12 @@
         var wrapper = $("<div>");
         var images = panorama.find("img");
 
-        panorama.width(ImageWidth);
+        //panorama.width(ImageWidth);
         panorama.append(wrapper);
         wrapper.append(images);
 
         images.load(function () {
-            var count = Math.ceil(ImageWidth / this.width);
+            var count = Math.ceil($(window).width() / this.width);
             for(var i = 0; i < count; i++){
                 wrapper.append(images.clone());
             }
