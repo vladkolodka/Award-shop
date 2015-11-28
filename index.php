@@ -36,6 +36,16 @@
         <div class="panorama">
             <img src="img/header/panorama.jpg">
         </div>
+        <a href="/">
+            <div class="center">
+                <h1 class="scale1">
+                    awardplay
+                </h1>
+                <h3 class="scale1">
+                    shop
+                </h3>
+            </div>
+        </a>
     </header>
 </body>
 </html>
