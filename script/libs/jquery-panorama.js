@@ -1,5 +1,5 @@
 (function($) {
-    $.fn.panorama = function(ImageWidth, ScrollSpeed) {
+    $.fn.panorama = function(ScrollSpeed) {
 
         var panorama = this.first();
         var wrapper = $("<div>");
