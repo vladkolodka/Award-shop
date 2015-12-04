@@ -53,134 +53,15 @@
                 </div>
             </a>
         </header>
-<<<<<<< HEAD
-=======
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
-        test<br>
->>>>>>> 3c9a3d791a6b7873df75c94ceb17126021028536
+        <section class="menu">
+            
+        </section>
+        <section class="body">
+            
+        </section>
+        <footer class="footer">
+            
+        </footer>
     </div>
 </div>
 </body>
